@@ -33,7 +33,7 @@ Meaning instead of navigating to a new location, you stay on the current page.
 
 https://github.com/klevo/rails-turbo-refresh-click-hijack/assets/32981/43088386-f63b-4fd3-ab6d-de62e79d361c
 
-* At the end you can observe I click on "Show this item" of the iten named "Two", yet I remain on the index page. You can notice the desired page blinked in and out for a few microseconds too.
+* At the end you can observe I click on "Show this item" of the item named "Two", yet I remain on the index page. You can notice the desired page blinked in and out for a few microseconds too.
 * The cause is visible in the console: The second to last turbo visit to `/items/2` is my user initiated action.
 * The following (last) entry in the console is the turbo refresh of the current `/items` page that just arrived (you can see the Updated at times changed from from :05 to :06). This refresh essentially hijacked my click and resulted in me staying on the index page.
 
