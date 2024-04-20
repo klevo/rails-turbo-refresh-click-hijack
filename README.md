@@ -16,7 +16,8 @@ bin/rake broadcast:start
 In the browser, open JavaScript console.
 
 Now visit `http://localhost:3000` and click back and forth between item details and item index. Observe that every few click,
-your click will be overriden by a turbo refresh coming for the page that you're on.
+your click will be overriden by a turbo refresh coming for the page that you're on, that happened just before your click and
+new page having a chance to be rendered.
 
 ## TODO:
 
