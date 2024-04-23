@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/klevo/turbo-rails.git
-  revision: 730f4268cf3de6424e0d590fa388419baefec78e
-  branch: issue-622
+  revision: 65e0900f2305dc089b3659910b2cb415aea1401b
+  branch: issue-622-v2
   specs:
     turbo-rails (2.0.5)
       actionpack (>= 6.0.0)
